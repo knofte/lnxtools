@@ -1,6 +1,3 @@
-# lnxtools
-Linux Tools which helps being efficient
---
 
 # PHP-FPM & Nginx Configuration Migration Script
 
