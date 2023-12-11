@@ -5,7 +5,7 @@ This script is designed to automate the migration of PHP-FPM configurations from
 
 ## Features
 
-- Migrates PHP-FPM pool configurations from PHP 8.2 to PHP 8.3.
+- Migrates PHP-FPM pool configurations from PHP 8.2 to PHP 8.3. (or any applicable version)
 - Updates Nginx site configurations to point to the new PHP-FPM sockets.
 - Backs up original PHP-FPM and Nginx configurations before making changes.
 - Provides options to migrate all configurations or specific ones.
@@ -15,7 +15,7 @@ This script is designed to automate the migration of PHP-FPM configurations from
 ## Prerequisites
 
 - The script is intended for use on Linux servers running PHP-FPM and Nginx.
-- PHP 8.2 and PHP 8.3 should be installed on the system.
+- PHP 8.2 and PHP 8.3 should be installed on the system. (or any applicable version)
 - Ensure you have sufficient permissions to modify PHP-FPM and Nginx configurations and restart their services (typically requires root or sudo privileges).
 
 ## Usage
