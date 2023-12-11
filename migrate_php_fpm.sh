@@ -43,8 +43,6 @@ update_nginx_config() {
         return
     fi
 
-    # local new_socket_path=$(echo "$old_socket_path" | sed "s/php${php_old_version}-fpm/php${php_new_version}-fpm/g")
-    
     # Find Nginx configs that reference the old socket
     grep -lRZ "$old_socket_path" "$nginx_sites_dir" | while IFS= read -rd '' nginx_config; do
     	echo "Updating Nginx config ${nginx_config} for ${fpm_file}..."
