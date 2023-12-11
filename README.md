@@ -53,3 +53,8 @@ This script is designed to automate the migration of PHP-FPM configurations from
 ## License
 
 This script is released under the BSD license. For more details, see the LICENSE file in the repository.
+
+## Disclaimer
+
+The PHP-FPM & Nginx Configuration Migration Script is provided "as is" without warranty of any kind, either express or implied. Use of this script is at your own risk. While every effort has been made to ensure the script works as intended, the authors take no responsibility for any damages or loss incurred as a result of using the script.
+
